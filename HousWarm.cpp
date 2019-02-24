@@ -14,10 +14,10 @@ int main()
     fd = serialOpen("/dev/ttyAMA0", 9600);
     wiringPiSetup();
 
-    std::string str;
+    std::string str = "L100";
     
-    std::cin >> str;
-    str += '\n';
+//    std::cin >> str;
+//    str += '\n';
 
     serialPuts(fd, str.c_str());
 
