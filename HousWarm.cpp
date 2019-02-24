@@ -17,8 +17,9 @@ int main()
     std::string str;
     
     std::cin >> str;
-    
-    serialPuts(fd, str);
+    str += '\n';
+
+    serialPuts(fd, str.c_str());
 
     return 0;
 }
