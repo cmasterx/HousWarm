@@ -1,0 +1,201 @@
+{% extends "layout.html "%}
+{% block content %}
+
+<style>
+.block{
+  width: 60%;
+  display: none;
+  text-align: center;
+  margin: 0px auto;
+}
+</style>
+        <button class="btn btn-info" onClick="getLocation()" style="display: block; margin: 0px auto;">Search Nearby Neighborhoods</button>
+        <a href="{{ url_for('houseview') }}"><button class="btn btn-info feel" onClick="" style="display: block; margin: 10px auto;">I'm Feeling Lucky</button></a>
+        <p id="demo1"></p>
+
+        <div class="title" style="display: none; margin: 0px auto; text-align: center;">
+            <div id="mapholder"style="position: relative; margin-right: 49%; margin-left: 40%;"></div>
+            <h1>Neighborhoods Near You</h1>
+            <p id="demo"></p>
+            <h5>Points of Interest (5 mi Radius)</h5>
+            <ul class="list-group block">
+                <li class="list-group-item list"></li>
+                <li class="list-group-item list"></li>
+                <li class="list-group-item list"></li>
+                <li class="list-group-item list"></li>
+                <li class="list-group-item list"></li>
+            </ul>
+        </div>
+
+        
+
+        <article class="media content-section block">
+            <div class="media-body">
+                <div class="article-metadata">
+                <a class="mr-2 neighborhood" href="#"></a>
+                <small class="text-muted zindex">id: 416913</small>
+                </div>
+                <h2><a class="article-title " href="http://www.zillow.com/local-info/TX-Richardson/Southwest-Richardson/r_416913/">Southwest Richardson</a></h2>
+                <img class="img">
+                
+            </div>
+        </article>
+
+        <article class="media content-section block">
+            <div class="media-body">
+                <div class="article-metadata">
+                <a class="mr-2 neighborhood" href="#"></a>
+                <small class="text-muted zindex">id: 416938</small>
+                </div>
+                <h2><a class="article-title " href="http://www.zillow.com/local-info/TX-Richardson/Canyon-Creek/r_416938/">Canyon Creek</a></h2>
+                <img class="img">
+                
+            </div>
+        </article>
+
+        <article class="media content-section block">
+            <div class="media-body">
+                <div class="article-metadata">
+                <a class="mr-2 neighborhood" ></a>
+                <small class="text-muted zindex">id: 416926</small>
+                </div>
+                <h2><a class="article-title " href="http://www.zillow.com/local-info/TX-Richardson/Highland-Terrace/r_416926/">Highand Terrace</a></h2>
+                <img class="img">
+                
+            </div>
+        </article>
+
+        <article class="media content-section block">
+            <div class="media-body">
+                <div class="article-metadata">
+                <a class="mr-2 neighborhood" href="#"></a>
+                <small class="text-muted zindex">id: 416936</small>
+                </div>
+                <h2><a class="article-title " href="http://www.zillow.com/local-info/TX-Richardson/Yale-Park/r_416936/">Yale Park</a></h2>
+                <img class="img">
+                
+            </div>
+        </article>
+
+        <article class="media content-section block">
+            <div class="media-body">
+                <div class="article-metadata">
+                <a class="mr-2 neighborhood" href="#"></a>
+                <small class="text-muted zindex">id: 416934</small>
+                </div>
+                <h2><a class="article-title " href="http://www.zillow.com/local-info/TX-Richardson/Duck-Creek/r_416934/">Duck Creek</a></h2>
+                <img class="img">
+                
+            </div>
+        </article>
+
+
+<script>
+
+var result;
+
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(addressRequest);
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position){
+  var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+  var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyAF22jq6gb2JeoyC016_0r7-gSaQsMuLVU";
+
+  document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+
+var address;
+
+function addressRequest(position){
+    var state;
+    var city;
+    var zip;
+    const Http = new XMLHttpRequest();
+    const url='https://maps.googleapis.com/maps/api/geocode/json?latlng=' + position.coords.latitude + ',' + position.coords.longitude+ '&key=AIzaSyAF22jq6gb2JeoyC016_0r7-gSaQsMuLVU';
+    var obj = APIRequest(url, Http);
+
+    address = obj.results[0].formatted_address;
+
+    city = obj.results[0].address_components[1].long_name;
+    state = obj.results[0].address_components[3].long_name;
+    zip = obj.results[0].address_components[5].long_name;
+    result = obj;
+    x.innerHTML = "Your current address is: " + address;
+    zillowRequest();
+    var inputURL = "https://search.onboard-apis.com/poisearch/v2.0.0/poi/geography?PostalCodeKey="+zip+"&SearchDistance=5&RecordLimit=20";
+
+    var poi = AttomRequest(inputURL);
+    var searches = ["BANKS - FINANCIAL", "PERSONAL SERVICES", "EATING - DRINKING", "AUTOMOTIVE SERVICES", "SHOPPING"];
+    var i = 0; var count = 0;
+    for(let i = 0; i<5; i++){
+        /*if(searches.includes(poi.response.result.package.item[i].business_category)){
+            var index = searches.indexOf(poi.response.result.package.item[i].business_category);
+            if (index !== -1) searches.splice(index, 1);
+            
+            count++;
+        }*/
+        document.getElementsByClassName("list")[i].innerHTML = poi.response.result.package.item[i].business_category+ ": "+ poi.response.result.package.item[i].name;
+    }
+}
+
+var y = document.getElementById("demo1");
+function zillowRequest(){
+
+    $(".block").css("display", "block");
+    $(".title").css("display", "inline");
+    $(".feel").css("display", "none");
+}
+
+function AttomRequest(u){
+    var key = "abff178608f34d8270bc6c6a86f21d18";
+    var url = u;
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", url, false );
+    xmlHttp.setRequestHeader('Accept', 'application/json');
+    xmlHttp.setRequestHeader("apikey",key);
+    xmlHttp.send(null);
+
+    var response = xmlHttp.responseText;
+    obj = JSON.parse(response);
+
+    return obj;
+}
+
+function AttomRequest2(a){
+    var key = "abff178608f34d8270bc6c6a86f21d18";
+    var url = "https://search.onboard-apis.com/propertyapi/v1.0.0/property/address?address1=468%20SEQUOIA%20DR&"+a+"2=SMYRNA%2C%20DE&radius=20&page=1&pagesize=100";
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", url, false );
+    xmlHttp.setRequestHeader('Accept', 'application/json');
+    xmlHttp.setRequestHeader("apikey",key);
+    xmlHttp.send(null);
+
+    var response = xmlHttp.responseText;
+    obj = JSON.parse(response);
+
+    return obj;
+}
+
+
+
+function APIRequest(url, Http){
+    Http.onreadystatechange=(e)=>{
+        var response = Http.responseText;
+        obj = JSON.parse(response);
+    }
+    Http.open("GET", url);
+    Http.send();
+    return obj;
+}
+
+</script>
+{% endblock content %}

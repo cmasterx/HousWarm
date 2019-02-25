@@ -1,0 +1,404 @@
+
+    <response>
+        <region>
+            <id>54121</id>
+            <latitude>32.963989</latitude>
+            <longitude>-96.69105</longitude>
+        </region>
+        <subregiontype>neighborhood</subregiontype>
+        <list>
+            <count>56</count>
+            <region>
+                <id>416913</id>
+                <name>Southwest Richardson</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Southwest-Richardson/r_416913/</url>
+                <latitude>32.94555</latitude>
+                <longitude>-96.759721</longitude>
+            </region>
+            <region>
+                <id>416938</id>
+                <name>Canyon Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Canyon-Creek/r_416938/</url>
+                <latitude>32.986434</latitude>
+                <longitude>-96.727276</longitude>
+            </region>
+            <region>
+                <id>416926</id>
+                <name>Highland Terrace</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Highland-Terrace/r_416926/</url>
+                <latitude>32.947123</latitude>
+                <longitude>-96.723569</longitude>
+            </region>
+            <region>
+                <id>416936</id>
+                <name>Yale Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Yale-Park/r_416936/</url>
+                <latitude>32.967675</latitude>
+                <longitude>-96.691244</longitude>
+            </region>
+            <region>
+                <id>416934</id>
+                <name>Duck Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Duck-Creek/r_416934/</url>
+                <latitude>32.952894</latitude>
+                <longitude>-96.69138</longitude>
+            </region>
+            <region>
+                <id>416919</id>
+                <name>Greenwood Hills</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Greenwood-Hills/r_416919/</url>
+                <latitude>32.970286</latitude>
+                <longitude>-96.750015</longitude>
+            </region>
+            <region>
+                <id>416920</id>
+                <name>Northrich</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Northrich/r_416920/</url>
+                <latitude>32.969474</latitude>
+                <longitude>-96.735934</longitude>
+            </region>
+            <region>
+                <id>416915</id>
+                <name>Arapaho</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Arapaho/r_416915/</url>
+                <latitude>32.957085</latitude>
+                <longitude>-96.757482</longitude>
+            </region>
+            <region>
+                <id>416956</id>
+                <name>Enclave at Breckinridge</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Enclave-at-Breckinridge/r_416956/</url>
+                <latitude>32.992822</latitude>
+                <longitude>-96.641357</longitude>
+            </region>
+            <region>
+                <id>416925</id>
+                <name>Richland Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Richland-Park/r_416925/</url>
+                <latitude>32.92921</latitude>
+                <longitude>-96.726264</longitude>
+            </region>
+            <region>
+                <id>416947</id>
+                <name>Woods of Spring Creek II</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Woods-of-Spring-Creek-II/r_416947/</url>
+                <latitude>33.001588</latitude>
+                <longitude>-96.659892</longitude>
+            </region>
+            <region>
+                <id>416950</id>
+                <name>Morningstar Meadows</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Morningstar-Meadows/r_416950/</url>
+                <latitude>33.002372</latitude>
+                <longitude>-96.641546</longitude>
+            </region>
+            <region>
+                <id>416946</id>
+                <name>Clear Springs Place</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Clear-Springs-Place/r_416946/</url>
+                <latitude>32.990998</latitude>
+                <longitude>-96.669561</longitude>
+            </region>
+            <region>
+                <id>416917</id>
+                <name>Reservation</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Reservation/r_416917/</url>
+                <latitude>32.966538</latitude>
+                <longitude>-96.76216</longitude>
+            </region>
+            <region>
+                <id>416954</id>
+                <name>Reserce at Sharp Lake</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Reserce-at-Sharp-Lake/r_416954/</url>
+                <latitude>32.995958</latitude>
+                <longitude>-96.644364</longitude>
+            </region>
+            <region>
+                <id>416933</id>
+                <name>Mark Twain</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Mark-Twain/r_416933/</url>
+                <latitude>32.952984</latitude>
+                <longitude>-96.708536</longitude>
+            </region>
+            <region>
+                <id>416923</id>
+                <name>Heights Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Heights-Park/r_416923/</url>
+                <latitude>32.957053</latitude>
+                <longitude>-96.743015</longitude>
+            </region>
+            <region>
+                <id>416939</id>
+                <name>The Crown</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/The-Crown/r_416939/</url>
+                <latitude>32.993189</latitude>
+                <longitude>-96.729474</longitude>
+            </region>
+            <region>
+                <id>416940</id>
+                <name>Knolls of Canyon Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Knolls-of-Canyon-Creek/r_416940/</url>
+                <latitude>32.989717</latitude>
+                <longitude>-96.728576</longitude>
+            </region>
+            <region>
+                <id>416914</id>
+                <name>Richardson Heights</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Richardson-Heights/r_416914/</url>
+                <latitude>32.947586</latitude>
+                <longitude>-96.745195</longitude>
+            </region>
+            <region>
+                <id>416958</id>
+                <name>Greenfields</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Greenfields/r_416958/</url>
+                <latitude>32.989071</latitude>
+                <longitude>-96.638702</longitude>
+            </region>
+            <region>
+                <id>237244</id>
+                <name>Rosehill</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Rosehill/r_237244/</url>
+                <latitude>32.936544</latitude>
+                <longitude>-96.733122</longitude>
+            </region>
+            <region>
+                <id>416929</id>
+                <name>North College Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/North-College-Park/r_416929/</url>
+                <latitude>32.942055</latitude>
+                <longitude>-96.709489</longitude>
+            </region>
+            <region>
+                <id>416928</id>
+                <name>College Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/College-Park/r_416928/</url>
+                <latitude>32.935612</latitude>
+                <longitude>-96.708809</longitude>
+            </region>
+            <region>
+                <id>416927</id>
+                <name>Richland Meadows</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Richland-Meadows/r_416927/</url>
+                <latitude>32.934589</latitude>
+                <longitude>-96.716291</longitude>
+            </region>
+            <region>
+                <id>416948</id>
+                <name>Creek Hollow Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Creek-Hollow-Estates/r_416948/</url>
+                <latitude>32.990696</latitude>
+                <longitude>-96.648577</longitude>
+            </region>
+            <region>
+                <id>416325</id>
+                <name>Wyndsor Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Wyndsor-Estates/r_416325/</url>
+                <latitude>32.993972</latitude>
+                <longitude>-96.617874</longitude>
+            </region>
+            <region>
+                <id>416951</id>
+                <name>Mackenzie Meadows</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Mackenzie-Meadows/r_416951/</url>
+                <latitude>32.99878</latitude>
+                <longitude>-96.637898</longitude>
+            </region>
+            <region>
+                <id>416937</id>
+                <name>Cottonwood Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Cottonwood-Creek/r_416937/</url>
+                <latitude>32.984229</latitude>
+                <longitude>-96.741104</longitude>
+            </region>
+            <region>
+                <id>416942</id>
+                <name>University Estates North</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/University-Estates-North/r_416942/</url>
+                <latitude>32.975914</latitude>
+                <longitude>-96.686996</longitude>
+            </region>
+            <region>
+                <id>416918</id>
+                <name>J. J. Pearce</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/J.-J.-Pearce/r_416918/</url>
+                <latitude>32.974469</latitude>
+                <longitude>-96.762131</longitude>
+            </region>
+            <region>
+                <id>416941</id>
+                <name>Owens Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Owens-Park/r_416941/</url>
+                <latitude>32.97868</latitude>
+                <longitude>-96.695431</longitude>
+            </region>
+            <region>
+                <id>416961</id>
+                <name>Carrington Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Carrington-Estates/r_416961/</url>
+                <latitude>33.002667</latitude>
+                <longitude>-96.618184</longitude>
+            </region>
+            <region>
+                <id>416957</id>
+                <name>Knolls of Breckinridge</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Knolls-of-Breckinridge/r_416957/</url>
+                <latitude>32.98995</latitude>
+                <longitude>-96.635589</longitude>
+            </region>
+            <region>
+                <id>416930</id>
+                <name>Glenville Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Glenville-Park/r_416930/</url>
+                <latitude>32.940291</latitude>
+                <longitude>-96.702355</longitude>
+            </region>
+            <region>
+                <id>416944</id>
+                <name>Sherril Park North And Foxboro Addition</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Sherril-Park-North-And-Foxboro-Addition/r_416944/</url>
+                <latitude>32.993091</latitude>
+                <longitude>-96.695833</longitude>
+            </region>
+            <region>
+                <id>416931</id>
+                <name>Town North Park II</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Town-North-Park-II/r_416931/</url>
+                <latitude>32.934902</latitude>
+                <longitude>-96.702204</longitude>
+            </region>
+            <region>
+                <id>416945</id>
+                <name>Fairways of Sherril Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Fairways-of-Sherril-Park/r_416945/</url>
+                <latitude>32.993742</latitude>
+                <longitude>-96.687699</longitude>
+            </region>
+            <region>
+                <id>416960</id>
+                <name>Heather Ridge</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Heather-Ridge/r_416960/</url>
+                <latitude>32.986621</latitude>
+                <longitude>-96.63553</longitude>
+            </region>
+            <region>
+                <id>416916</id>
+                <name>Waterview Preservation</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Waterview-Preservation/r_416916/</url>
+                <latitude>32.95684</latitude>
+                <longitude>-96.75565</longitude>
+            </region>
+            <region>
+                <id>416932</id>
+                <name>Marlborough Square</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Marlborough-Square/r_416932/</url>
+                <latitude>32.936304</latitude>
+                <longitude>-96.697645</longitude>
+            </region>
+            <region>
+                <id>416962</id>
+                <name>Knights Bridge Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Knights-Bridge-Estates/r_416962/</url>
+                <latitude>32.996209</latitude>
+                <longitude>-96.620594</longitude>
+            </region>
+            <region>
+                <id>416952</id>
+                <name>Sharp Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Sharp-Estates/r_416952/</url>
+                <latitude>32.995971</latitude>
+                <longitude>-96.646967</longitude>
+            </region>
+            <region>
+                <id>416327</id>
+                <name>Breckinridge Farms</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Breckinridge-Farms/r_416327/</url>
+                <latitude>32.985745</latitude>
+                <longitude>-96.615744</longitude>
+            </region>
+            <region>
+                <id>416921</id>
+                <name>Estates of Prairie Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Estates-of-Prairie-Creek/r_416921/</url>
+                <latitude>32.973419</latitude>
+                <longitude>-96.728778</longitude>
+            </region>
+            <region>
+                <id>416912</id>
+                <name>Waterfall Crossing</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Waterfall-Crossing/r_416912/</url>
+                <latitude>32.942885</latitude>
+                <longitude>-96.762818</longitude>
+            </region>
+            <region>
+                <id>416943</id>
+                <name>Spring Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Spring-Park/r_416943/</url>
+                <latitude>32.982947</latitude>
+                <longitude>-96.684162</longitude>
+            </region>
+            <region>
+                <id>416935</id>
+                <name>Millwood Creek</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Millwood-Creek/r_416935/</url>
+                <latitude>32.946631</latitude>
+                <longitude>-96.685438</longitude>
+            </region>
+            <region>
+                <id>416959</id>
+                <name>Southpointe</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Southpointe/r_416959/</url>
+                <latitude>32.985622</latitude>
+                <longitude>-96.637715</longitude>
+            </region>
+            <region>
+                <id>416924</id>
+                <name>Custer Trails Condominiums</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Custer-Trails-Condominiums/r_416924/</url>
+                <latitude>32.957819</latitude>
+                <longitude>-96.736275</longitude>
+            </region>
+            <region>
+                <id>416922</id>
+                <name>Richardson Crossing</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Richardson-Crossing/r_416922/</url>
+                <latitude>32.968871</latitude>
+                <longitude>-96.725918</longitude>
+            </region>
+            <region>
+                <id>416328</id>
+                <name>Hills of Breckinridge</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Hills-of-Breckinridge/r_416328/</url>
+                <latitude>32.985641</latitude>
+                <longitude>-96.620868</longitude>
+            </region>
+            <region>
+                <id>416326</id>
+                <name>Breckinridge Park Estates</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Breckinridge-Park-Estates/r_416326/</url>
+                <latitude>32.988397</latitude>
+                <longitude>-96.616372</longitude>
+            </region>
+            <region>
+                <id>416949</id>
+                <name>Sharp's Farm</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Sharp's-Farm/r_416949/</url>
+                <latitude>32.995754</latitude>
+                <longitude>-96.649861</longitude>
+            </region>
+            <region>
+                <id>416953</id>
+                <name>Estates of Breckinridge Park</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Estates-of-Breckinridge-Park/r_416953/</url>
+                <latitude>32.992279</latitude>
+                <longitude>-96.646547</longitude>
+            </region>
+            <region>
+                <id>416955</id>
+                <name>Saddlebrook</name>
+                <url>http://www.zillow.com/local-info/TX-Richardson/Saddlebrook/r_416955/</url>
+                <latitude>32.992865</latitude>
+                <longitude>-96.643899</longitude>
+            </region>
+        </list>
+    </response>
